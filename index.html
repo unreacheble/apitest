@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+<form id="form">
+    Url: <input type="text" name="url" size="40" placeholder="Enter url here"><br>
+    Method: <select name="method" >
+        <option value="POST">POST</option>
+        <option value="GET">GET</option>
+    </select></br>
+    <div class="params">
+        Param 1: <input name="params" type="text" placeholder="Param name">:<input name="values" type="text" placeholder="Param value"><br>
+        Param 2: <input name="params" type="text" placeholder="Param name">:<input name="values" type="text" placeholder="Param value"><br>
+        Param 3: <input name="params" type="text" placeholder="Param name">:<input name="values" type="text" placeholder="Param value"><br>
+        Param 4: <input name="params" type="text" placeholder="Param name">:<input name="values" type="text" placeholder="Param value"><br>
+        Param 5: <input name="params" type="text" placeholder="Param name">:<input name="values" type="text" placeholder="Param value"><br>
+    </div>
+    <p>Search for: <input name="key" type="text" placeholder="Param name to find">:<input name="val" type="text" placeholder="Param value to find"><br></p>
+    <input type="button" value="Send request" id="send">
+
+</form>
+    <div id="response"></div>
+</body>
+</html>
